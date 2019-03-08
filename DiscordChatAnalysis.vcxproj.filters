@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\DiscordChatExporter.CLI">
+      <UniqueIdentifier>{28dc56eb-759b-46d8-89fc-f7d7ab5e27f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Post.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="settings.cfg" />
+    <CopyFileToFolders Include="swearWords.txt" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\ByteSize.dll" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\CommandLine.dll" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\DiscordChatExporter.Cli.exe" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\DiscordChatExporter.Cli.exe.config" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\DiscordChatExporter.Core.dll" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\DiscordChatExporter.Core.Markdown.dll" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\Failsafe.dll" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\Newtonsoft.Json.dll" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\Onova.dll" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\Scriban.dll" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\Sprache.dll" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\Stylet.dll" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\System.Console.dll" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\System.Reflection.TypeExtensions.dll" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\Tyrrrz.Extensions.dll" />
+    <CopyFileToFolders Include="DiscordChatExporter.CLI\Tyrrrz.Settings.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DiscordChatAnalysis.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="discordc.bin" />
+    <None Include="DiscordChatExporter.CLI\DiscordChatExporter-LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Guild.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
