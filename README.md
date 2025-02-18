@@ -1,7 +1,5 @@
 # DiscordChatAnalyzer
 
-![Image of DiscordChatAnalyzer Window](https://i.imgur.com/98RmFq8.png)
-
 DiscordChatAnalyzer allows you to run data analysis on an extracted Discord chat log. Comes with an integrated batch download tool that runs with a bot or selfbot token using DiscordChatExporter created by Tyrrrz, [see here](https://github.com/Tyrrrz/DiscordChatExporter/blob/master/Readme.md)
 The program gathers data on each person it finds and exports the data to spreadsheets.
 
